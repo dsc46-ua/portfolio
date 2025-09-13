@@ -350,9 +350,18 @@ section {
     }
 
     .navbar {
-        flex-direction: column;
+        position: relative; /* Necesario para posicionar el lang-switcher */
+        flex-wrap: wrap;
+        justify-content: center;
         height: auto;
         padding: 1rem 0;
+        padding-top: 4rem; /* Revertido al valor original */
+    }
+
+    .lang-switcher {
+        position: absolute;
+        top: 1.2rem;
+        right: 1rem;
     }
 
     .nav-menu {
@@ -360,7 +369,7 @@ section {
         justify-content: center; /* Centra los elementos en la fila */
         text-align: center;
         width: 100%;
-        margin-top: 1rem;
+        margin-top: 1.5rem; /* Añadido para crear espacio arriba */
     }
 
     .nav-item {
