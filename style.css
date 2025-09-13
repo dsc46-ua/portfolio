@@ -354,14 +354,22 @@ section {
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
-        padding: 1rem 0;
-        padding-top: 4rem; /* Revertido al valor original */
+        padding: 0.5rem 0; /* Reducido el padding vertical */
+        padding-top: 3rem; /* Reducido para bajar la altura total */
+    }
+
+    .logo {
+        position: absolute;
+        top: 0.8rem; /* Subido ligeramente */
+        left: 1rem; /* Alineado a la izquierda */
+        transform: none; /* Eliminamos la transformación */
+        white-space: nowrap; /* Añadido para evitar que el texto se divida */
     }
 
     .lang-switcher {
         position: absolute;
-        top: 1.2rem;
-        right: 1rem;
+        top: 1rem; /* Subido ligeramente */
+        right: 1rem; /* Mantenido a la derecha */
     }
 
     .nav-menu {
@@ -369,7 +377,7 @@ section {
         justify-content: center; /* Centra los elementos en la fila */
         text-align: center;
         width: 100%;
-        margin-top: 1.5rem; /* Añadido para crear espacio arriba */
+        margin-top: 0.5rem; /* Reducido el margen para acercarlo a la parte superior */
     }
 
     .nav-item {
@@ -378,6 +386,7 @@ section {
 
     .nav-item a {
         padding: 0.5rem; /* Reducimos un poco el padding para que quepan mejor */
+        font-size: 0.9rem; /* Reducido el tamaño de la fuente */
     }
 
     .hero {
@@ -425,5 +434,10 @@ section {
 
     .projects-grid {
         grid-template-columns: 1fr; /* Una sola columna */
+    }
+
+    .project-card img {
+        height: auto; /* Permite que la altura se ajuste para mantener la proporción */
+        object-fit: contain; /* Asegura que toda la imagen sea visible */
     }
 }
