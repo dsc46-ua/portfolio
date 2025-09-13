@@ -82,6 +82,37 @@ section {
     color: var(--primary-blue);
 }
 
+/* --- Selector de Idioma --- */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0; /* Borde sutil para el contenedor */
+    border-radius: 20px; /* Bordes redondeados para forma de píldora */
+    overflow: hidden; /* Asegura que los fondos internos no se salgan */
+    background-color: var(--light-blue-bg);
+    margin-left: 1rem;
+}
+
+.lang-option {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lang-option.active {
+    background-color: var(--dark-blue); /* Fondo sólido para el activo */
+    color: var(--white); /* Texto blanco para el activo */
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.lang-option:not(.active):hover {
+    color: var(--dark-blue);
+}
+
 /* --- Sección Hero --- */
 .hero {
     background-color: var(--dark-blue);
