@@ -1,0 +1,334 @@
+/* --- Variables de Color y Fuentes --- */
+:root {
+    --primary-blue: #005A9C;
+    --dark-blue: #0A2342;
+    --light-blue-bg: #F0F8FF;
+    --white: #FFFFFF;
+    --text-color: #333;
+    --font-headings: 'Montserrat', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+/* --- Reseteo Básico y Estilos Globales --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-headings);
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+/* --- Header y Navegación --- */
+.header {
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    font-family: var(--font-headings);
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item a {
+    color: var(--dark-blue);
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: var(--primary-blue);
+}
+
+/* --- Sección Hero --- */
+.hero {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.hero .subtitle {
+    font-size: 1.5rem;
+    color: var(--light-blue-bg);
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00487C; /* Un azul un poco más oscuro */
+}
+
+/* --- Sección Sobre Mí --- */
+.about {
+    background-color: var(--light-blue-bg);
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--white);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.skills-section {
+    margin-top: 3rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.skill-category {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.skill-category h4 {
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.skill-category ul {
+    list-style: none;
+}
+
+.skill-category li {
+    margin-bottom: 0.5rem;
+}
+
+/* --- Sección Proyectos --- */
+.projects {
+    background-color: var(--white);
+    padding: 4rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    margin: 1rem 1rem 0.5rem 1rem;
+    color: var(--primary-blue);
+}
+
+.project-card p {
+    font-size: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    flex-grow: 1;
+}
+
+.project-card h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0 1rem 1rem 1rem;
+    font-family: var(--font-body);
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 1rem 1rem 1rem;
+    align-self: flex-start;
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+/* --- Sección Contacto --- */
+.contact {
+    background-color: var(--light-blue-bg);
+    text-align: center;
+}
+
+.contact p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact a {
+    color: var(--primary-blue);
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer p {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: var(--white);
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* --- Media Queries para Responsividad --- */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+        margin-top: 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
