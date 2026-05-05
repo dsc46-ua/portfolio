@@ -1,5 +1,5 @@
 # Daniel Segurado Climent
-**Ingeniero del Software | Especialista en IA y Agentes**
+**Ingeniero del Software**
 daniel.segurado.climent@gmail.com | 663 279 779 | [github.com/dsc46-ua](https://github.com/dsc46-ua) | [linkedin.com/in/daniel-segurado-climent](https://www.linkedin.com/in/daniel-segurado-climent-52b966359/)
 
 ## Perfil Profesional
@@ -18,15 +18,15 @@ Cuento con un gran manejo en la integración de flujos de trabajo aumentados por
 * **Testing y Debugging:** JUnit y pruebas unitarias.
 
 **Frameworks, Tecnologías y Base de Datos**
-* **IA y Herramientas:** Arquitecturas Multi-agente, automatización con LLMs, GitHub Copilot.
-* **Bases de Datos:** MySQL, Firebase, Supabase, MongoDB.
+* **Herramientas:** Arquitecturas Multi-agente, automatización con LLMs, GitHub Copilot.
+* **Bases de Datos:** MySQL, Firebase, Supabase.
 * **Herramientas de Desarrollo:** Docker (básico), Git/GitHub, Visual Studio, Visual Studio Code, Postman, pipelines CI/CD.
 * **Diseño e Interfaz:** Figma.
 
 **Metodologías**
 * **Desarrollo Ágil:** Scrum, Kanban (Trello, software de organización personal).
 * **Prácticas DevOps:** Integración y Despliegue Continuo (CI/CD).
-* **Testing y Calidad:** TDD (Test-Driven Development), Testing con IA.
+* **Testing y Calidad:** TDD (Test-Driven Development).
 
 ## Proyectos Destacados
 
@@ -46,7 +46,7 @@ Cuento con un gran manejo en la integración de flujos de trabajo aumentados por
 
 **Sistema de Taxis Distribuido**
 *Python, Docker, JavaScript, HTML* | 2024-2025
-* Desarrollo de aplicación web para taxis automatizados simulando un sistema de IA distribuido.
+* Desarrollo de aplicación web para taxis automatizados simulando un sistema distribuido.
 * Implementación de backend con Python y API REST (Postman para consumo y validación).
 * Contenerización con Docker para despliegue consistente.
 
@@ -56,26 +56,28 @@ Cuento con un gran manejo en la integración de flujos de trabajo aumentados por
 *Godot, GDScript, C#* | 2024
 * Juego de alquimia y pociones desarrollado en tiempo récord bajo principios ágiles.
 * **Rol:** Director del Proyecto y Programador. Planificación de arquitectura de software para eventos y mecánicas.
+* https://milnombres.itch.io/darktender
 
 **TRAMFIGHT: L2 Smackdown - Level Up Game Jam 2025**
 *Godot, C#* | 2025
 * Beat 'em up centrado en el transporte público, diseñado y programado desde cero.
 * **Rol:** Programación General. Gestión eficiente del flujo de trabajo y versionado de ramas.
+* https://maxmartdev.itch.io/tramfight
 
 ## Habilidades Transversales
 * **Liderazgo Técnico y Trabajo en Equipo:** Experiencia en organización de equipos pequeños (Project Lead en DarkTender) y en proyectos universitarios multi-persona.
 * **Resolución de Problemas:** Fuerte base en depuración, modelado de sistemas y análisis lógico rápido.
-* **Aseguramiento de Calidad (QA) con IA:** Habilidad para integrar asistentes inteligentes en la automatización de pruebas, generación de test suites y aceleración del proceso de debugging.
+* **Aseguramiento de Calidad (QA):** Habilidad para integrar asistentes inteligentes en la automatización de pruebas, generación de test suites y aceleración del proceso de debugging.
 * **Adaptabilidad y Aprendizaje Continuo:** Amplio interés en nuevas tecnologías, despliegue de aplicaciones y herramientas de última generación.
 
 ## Valor para DXC Technology
 Mi perfil une una base sólida en Ingeniería del Software con un **profundo conocimiento y manejo práctico de herramientas de IA y Agentes**. Para este puesto en DXC Technology, puedo aportar:
 * **Potenciación del Desarrollo con Agentes:** Capacidad para diseñar e implementar agentes que automaticen flujos de trabajo repetitivos en el desarrollo, testing y despliegue de software.
-* **Productividad Elevada:** Uso fluido de IA y asistentes de código como GitHub Copilot para agilizar tiempos de entrega y mejorar la arquitectura de las soluciones.
+* **Productividad Elevada:** Uso fluido de asistentes de código como GitHub Copilot para agilizar tiempos de entrega y mejorar la arquitectura de las soluciones.
 * **Calidad y Testing Avanzado:** Utilización de herramientas algorítmicas combinadas con LLMs para encontrar vulnerabilidades y casos límite más rápidamente.
 * **Visión a Futuro:** Comprensión clara de cómo la IA generativa no reemplaza la ingeniería, sino que evoluciona el ciclo de vida del software (SDLC) volviéndolo mucho más iterativo y preciso.
 
 ## Información Adicional
-* **Disponibilidad:** Inmediata.
-* **Idiomas:** Español (Nativo), Inglés (B2 Acreditado - Avanzado),  Valenciano (C1 - Nativo).
+* **Disponibilidad:** Inmediata (Junio).
+* **Idiomas:** Español (Nativo), Inglés (B2 Acreditado - Avanzado), Valenciano (C1 - Nativo).
 * **Intereses y Enfoque:** Herramientas y Agentes de IA, prácticas DevOps (CI/CD, Docker, Git), Ingeniería del Software.
